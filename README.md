@@ -39,7 +39,7 @@ cp .env.example .env
 
 3. **Запуск приложения**
 ```bash
-poetry run uvicorn app.main:app --reload
+docker-compose -f docker-compose.yaml up --build
 ```
 
 4. **Запуск тестов**
